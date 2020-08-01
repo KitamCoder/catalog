@@ -1,0 +1,151 @@
+@media screen and (max-width: 1300px) {
+    .nav {
+        padding: 0px 15px;
+        padding-top: 47px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .nav {
+        padding: 0px 5px;
+        padding-top: 47px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .nav a {
+        display: none;
+    }
+    .electronics__image, .computers__image, .appliances__image, .repairs__image, .house__image, .auto__image {
+        display: none;
+    }
+    .buttons__mobile_nav {
+        display: flex;
+    }
+    .searching_menu__input {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 500px) {
+    html {
+        height: auto;
+    }
+    .first_line, .second_line {
+        flex-flow: column nowrap;
+        height: 717px;
+    }
+    .electronics, .computers, .appliances, .repairs, .house, .auto {
+        width: 100%;
+        height: 239px;
+        flex-flow: column nowrap;
+        justify-content: center;
+        border: none;
+    }
+    .electronics__image, .computers__image, .appliances__image, .repairs__image, .house__image, .house__image, .auto__image {
+        opacity: 1;
+        display: block;
+    }
+    .electronics, .appliances, .house {
+        background-color: #4285F4;
+    }
+    .computers, .repairs, .auto {
+        background-color: #F44242;
+    }
+    footer {
+        background: #F5F6F7;
+        height: 107px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer div {
+        height: 50px;
+        width: 100%;
+        border: none;
+        display: flex;
+    }
+    .site, .catalog {
+        justify-content: center;
+        align-items: center;
+    }
+    footer div p {
+        color: black;
+        text-align: center;
+        font-size: 12px;
+        margin: 0;
+    }
+    .text__first, .text__second {
+        opacity: 1;
+        margin: 20px;
+    }
+    .list__header {
+        margin-bottom: 0;
+    }
+    .electronics:hover .list__header, .computers:hover .list__header, .appliances:hover .list__header, .repairs:hover .list__header, .house:hover .list__header {
+        margin-bottom: 0;
+    }
+    .list__text {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .auto__list .list__header {
+        margin-bottom: 20px;
+    }
+    .go_top {
+        padding: 20px;
+        background-color: white;
+        opacity: 1;
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        text-align: center;
+        align-items: center;
+    }
+    .go_top p {
+        color: black;
+    }
+    header {
+        display: flex;
+        height: 232px;
+        flex-direction: column;
+    }
+    .logo, .nav, .buttons {
+        border: none;
+        width: 100%;
+    }
+    .buttons {
+        order: -1;
+        display: flex;
+        justify-content: space-between;
+    }
+    .buttons__searching {
+        margin: 10px;
+    }
+    .buttons__mobile_nav {
+        margin: 10px;
+    }
+    .logo {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .nav {
+        opacity: 0;
+    }
+    .buttons__mobile_nav {
+        order: -1;
+    }
+    .electronics__list {
+        text-align: center;
+    }
+    .empty {
+        display: none;
+    }
+    .mobile_nav{
+        width: 100%;
+        height: 100%;
+    }
+    .searching_menu__input {
+        width: 80%;
+    }
+}
