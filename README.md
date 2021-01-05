@@ -1,7 +1,7 @@
 # Catalog
-Адаптивный сайт с каталогом интернет-магазина.
+Catalog of an online store.
 ___
-### Установка и запуск
-- Скопируйте репозиторий на ваш компьютер.
-- Откройте файл **index.html**, используя браузер.
+### Installation and launching
+- Clone repository to your computer.
+- Open the **index.html** file, using a browser.
 ___
